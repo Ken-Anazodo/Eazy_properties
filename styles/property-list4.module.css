@@ -1,0 +1,21 @@
+.spinnerWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh; /* or 100vh if full screen */
+}
+
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 5px solid #eee;
+  border-top: 5px solid #4f46e5;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

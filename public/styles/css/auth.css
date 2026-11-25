@@ -1,0 +1,232 @@
+.main-sec {
+  width: 100vw;
+}
+
+.cont {
+  width: 100%;
+  height: 100%;
+  margin-top: 200px;
+  margin-bottom: 30px;
+}
+
+.login-cont {
+  background-color: white;
+  width: 100vw;
+  /* height: 100%; */
+}
+
+div .logWith {
+  font-size: 13px;
+}
+
+.loginForm-cont {
+  color: #073b3a;
+}
+
+.container {
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.login-input {
+  width: 100%;
+  height: 50px;
+  font-size: 14px;
+  padding-left: 15px;
+  border-bottom: 1px solid #073b3a;
+  color: oklch(55.2% 0.016 285.938);
+}
+
+.loginBgImg {
+  background-image: url(/assets/img/all-images/items/item-img3.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.sign-cont {
+  border-color: #073b3a;
+  border-radius: 10px;
+  border-width: 3px;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+input::placeholder,
+.acctType {
+  color: #306e6d;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.acctType {
+  padding-left: 15px;
+}
+
+.submit{
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.btnColor1 {
+  background-color: #073b3a;
+  color: white;
+}
+
+.btnColor2 {
+  background-color: transparent;
+  color: #073b3a;
+  border-color: #073b3a;
+  border-width: 2px;
+}
+
+form .submit:hover {
+  background-color: #073b3a;
+  color: white;
+}
+
+.form-txt {
+  color: #073b3a;
+  font-size: 12px;
+}
+
+.form-txt .signup {
+  color: #073b3a;
+}
+
+.upload-desc {
+  font-size: 8px;
+  padding-left: 15px;
+  font-weight: 600;
+}
+
+.signup-img {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.form-check {
+  padding: 0;
+  margin: 0;
+}
+
+.logWith {
+  font-size: 13px;
+}
+
+.shortBtn:hover {
+  background-color: #073b3a;
+  color: white;
+}
+
+.imageUploadStatus {
+  width: 200px;
+}
+
+.image-viewer {
+  width: 200px;
+  height: 200px;
+  background-color: #073b3a;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer !important;
+
+  p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* z-index: 99; */
+    font-size: 1.2rem;
+    text-align: center;
+    cursor: pointer !important;
+  }
+  input {
+    cursor: pointer !important;
+  }
+
+  .user-icon {
+    cursor: pointer !important;
+    width: 70%;
+    height: 70%;
+    color: gray !important;
+  }
+}
+
+.nextBtn:hover {
+  background-color: #073b3a;
+  color: white;
+}
+
+.imageUploadStatus {
+  width: 200px;
+}
+
+.w-radio input[type="radio"]:checked {
+  border: 5px solid #073b3a !important;
+}
+
+hr {
+  width: 100px;
+}
+
+.notify-cont{
+	height: 100vh;
+	width: 100vw;
+	color: #073b3a;
+}
+
+.notify-item{
+	width: 45%;
+}
+
+.notify-head{
+	font-size: 2rem;
+	font-weight: 400;
+}
+
+.notify-body{
+	font-size: 15px;
+}
+
+@media screen and (min-width: 376px) {
+  .cont {
+    width: 100%;
+  }
+
+  .logWith {
+    font-size: 16px;
+  }
+}
+
+/* React Country and state picker */
+
+.stdropdown-container {
+  border: none !important;
+
+  svg {
+    color: #073b3a !important;
+  }
+
+  .stsearch-box input {
+    color: #073b3a;
+    width: 100% !important;
+    box-sizing: border-box;
+    padding: 0px !important;
+    border: none !important;
+    border-radius: 5px;
+  }
+}

@@ -1,0 +1,42 @@
+.paystack-callback {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f9f9f9;
+}
+
+.callback-container {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.callback-container h1 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.callback-container p {
+  font-size: 18px;
+  margin: 8px 0;
+}
+
+.success {
+  color: #28a745;
+}
+
+.failed {
+  color: #dc3545;
+}
+
+.error {
+  color: #ffc107;
+}
+
+.loading {
+  color: #007bff;
+}
